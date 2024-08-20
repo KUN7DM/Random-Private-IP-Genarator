@@ -3,11 +3,6 @@ import tkinter as tk
 from tkinter import ttk
 
 def Class_A():
-    #pub_IP = [i for i in range(1,126)]
-    #for n in pub_IP:
-        #if n == 10:
-            #pub_IP.remove(n)
-    #public = [random.choice(pub_IP),random.randint(0,255),random.randint(0,255),random.randint(0,255)]
     private = ['10', str(random.randint(0,255)),str(random.randint(0,255)),str(random.randint(0,255))]
     result = '.'.join(private)
     Output_Lbl.set(result)
